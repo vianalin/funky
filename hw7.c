@@ -13,10 +13,11 @@ int main() {
 	}
 	printA(hi, 5);
 	
-	printf("/n");
+	printf("\n");
 	
 	//tested 2
-	
+	int hey[5] = {1, 2, 3, 4, 5};
+	printf("avg: %d\n", avg(hey, 5));
 }
 	
 //1. write a function that takes an array of int values as a parameter and prints it out
