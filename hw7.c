@@ -3,7 +3,20 @@
 #include <time.h>
 
 int main() {
-	return 0;
+
+	//tested 1
+	int hi[5];
+	srand(time(NULL));
+	int i; 
+	for(i = 0; i < 5; i++) {
+		hi[i] = rand();
+	}
+	printA(hi, 5);
+	
+	printf("/n");
+	
+	//tested 2
+	
 }
 	
 //1. write a function that takes an array of int values as a parameter and prints it out
