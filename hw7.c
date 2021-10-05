@@ -5,19 +5,18 @@
 int main() {
 
 	//tested 1
-	int hi[5];
-	srand(time(NULL));
-	int i; 
-	for(i = 0; i < 5; i++) {
-		hi[i] = rand();
-	}
+	int hi[5] = {5, 6, 7, 8, 9};
 	printA(hi, 5);
-	
 	printf("\n");
 	
 	//tested 2
 	int hey[5] = {1, 2, 3, 4, 5};
 	printf("avg: %d\n", avg(hey, 5));
+	
+	//tested 3
+	int heyhey[5];
+	copy(hey, heyhey, 5);
+	printA(heyhey, 5);
 }
 	
 //1. write a function that takes an array of int values as a parameter and prints it out
